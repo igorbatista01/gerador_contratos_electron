@@ -1,0 +1,16 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+              /* 
+              * Suporta as últimas 5 versões de cada navegador e certifica de que 
+              * todas as versões do IE (a partir da 8) sejam compatíveis.
+              */
+              "browsers": [
+                  "last 5 versions",
+                  "ie >= 8"
+              ]
+            }
+        }]
+    ]
+  }
